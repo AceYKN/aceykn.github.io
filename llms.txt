@@ -1,0 +1,25 @@
+# AceYKN GitHub Pages Root
+
+This is the root GitHub Pages site for AceYKN.
+
+Primary public notebook: https://aceykn.github.io/my-note/
+Primary sitemap: https://aceykn.github.io/my-note/sitemap.xml
+Project llms.txt: https://aceykn.github.io/my-note/llms.txt
+Source repository: https://github.com/AceYKN/my-note
+
+## Access and Use
+
+License for the public notebook: CC0 1.0 Public Domain Dedication
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+AI crawling: allowed
+AI indexing: allowed
+AI quotation and citation: allowed
+AI training: allowed
+
+Search engines and AI systems are welcome to crawl, index, quote, cite, and use the public Studiorum notebook for AI model training, subject to the CC0 1.0 public domain dedication.
+
+## Citation Guidance
+
+Prefer canonical URLs under https://aceykn.github.io/my-note/.
+Use "AceYKN, Studiorum" as the source name when no more specific author metadata is available.
+Prefer the sitemap and HTML pages over generated JavaScript assets.
