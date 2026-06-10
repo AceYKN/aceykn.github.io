@@ -3,12 +3,153 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="refresh" content="0; url=/my-note/" />
     <meta name="robots" content="index,follow" />
-    <link rel="canonical" href="https://aceykn.github.io/my-note/" />
-    <title>Studiorum</title>
+    <meta
+      name="description"
+      content="AceYKN 的个人主页入口，连接学习笔记 Studiorum、GitHub 项目与公开内容。"
+    />
+    <link rel="canonical" href="https://aceykn.github.io/" />
+    <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
+    <title>AceYKN</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family:
+          Inter,
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background: #f7f4ef;
+        color: #1d2525;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 32px;
+      }
+
+      main {
+        width: min(720px, 100%);
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(40px, 8vw, 84px);
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      p {
+        max-width: 56ch;
+        margin: 0 0 28px;
+        color: #4d5a58;
+        font-size: 18px;
+        line-height: 1.75;
+      }
+
+      h2 {
+        margin: 28px 0 10px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0;
+        color: #63716d;
+      }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      nav a {
+        display: inline-flex;
+        min-height: 44px;
+        align-items: center;
+        border: 1px solid #c9d2ce;
+        border-radius: 8px;
+        padding: 10px 14px;
+        background: rgb(255 255 255 / 70%);
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      nav a:hover,
+      nav a:focus-visible {
+        border-color: #44645d;
+        outline: none;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          background: #101615;
+          color: #eef4f0;
+        }
+
+        p {
+          color: #bac8c3;
+        }
+
+        nav a {
+          border-color: #31433f;
+          background: rgb(255 255 255 / 6%);
+        }
+
+        nav a:hover,
+        nav a:focus-visible {
+          border-color: #8eb6aa;
+        }
+
+        h2 {
+          color: #9aa9a4;
+        }
+      }
+    </style>
   </head>
   <body>
-    <p><a href="/my-note/">Studiorum</a></p>
+    <main>
+      <h1>AceYKN</h1>
+      <p>
+        这里是 AceYKN 的 GitHub Pages 主站入口。学习笔记、工具项目与公开资料放在下方的次级站点。
+      </p>
+
+      <h2>项目站点</h2>
+      <nav aria-label="项目站点">
+        <a href="/my-note/">Studiorum 学习笔记</a>
+        <a href="/zenflow/">Zenflow</a>
+        <a href="/bilibililength/">BilibiliLength</a>
+        <a href="/PaperMD/">PaperMD</a>
+        <a href="/world-time/">World Time</a>
+      </nav>
+
+      <h2>GitHub 仓库</h2>
+      <nav aria-label="GitHub 仓库">
+        <a href="https://github.com/AceYKN/my-note">my-note repo</a>
+        <a href="https://github.com/AceYKN/zenflow">zenflow repo</a>
+        <a href="https://github.com/AceYKN/bilibililength">bilibililength repo</a>
+        <a href="https://github.com/AceYKN/PaperMD">PaperMD repo</a>
+        <a href="https://github.com/AceYKN/world-time">world-time repo</a>
+      </nav>
+
+      <h2>公开资料</h2>
+      <nav aria-label="公开资料">
+        <a href="https://github.com/AceYKN">GitHub Profile</a>
+        <a href="/robots.txt">robots.txt</a>
+        <a href="/llms.txt">llms.txt</a>
+      </nav>
+    </main>
   </body>
 </html>
